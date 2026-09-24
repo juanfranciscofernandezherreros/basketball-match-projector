@@ -81,14 +81,14 @@ public class PostgresMatchReader {
                 string(r, "away_team"),
                 integer(r, "home_score"),
                 integer(r, "away_score"),
-                List.of(
+                Arrays.asList(
                         integer(r, "home_score1"),
                         integer(r, "home_score2"),
                         integer(r, "home_score3"),
                         integer(r, "home_score4"),
                         integer(r, "home_score5")
                 ),
-                List.of(
+                Arrays.asList(
                         integer(r, "away_score1"),
                         integer(r, "away_score2"),
                         integer(r, "away_score3"),
