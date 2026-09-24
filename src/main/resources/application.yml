@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: basketball-match-projector
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/basketball}
+    username: ${DB_USER:postgres}
+    password: ${DB_PASS:postgres}
+    driver-class-name: org.postgresql.Driver
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/basketball}
+      auto-index-creation: true
+
+app:
+  projector:
+    fixed-delay-ms: ${PROJECTOR_FIXED_DELAY_MS:60000}
+    initial-delay-ms: ${PROJECTOR_INITIAL_DELAY_MS:5000}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+  level:
+    com.fernandez.basketball.projector: INFO
