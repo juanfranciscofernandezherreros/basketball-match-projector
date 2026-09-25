@@ -12,7 +12,7 @@
 
   <groupId>com.fernandez</groupId>
   <artifactId>basketball-match-projector</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <name>basketball-match-projector</name>
   <description>Projects PostgreSQL basketball match data into MongoDB read models</description>
 
