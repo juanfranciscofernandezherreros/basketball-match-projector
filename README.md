@@ -1,6 +1,6 @@
 # basketball-match-projector
 
-![version](https://img.shields.io/badge/version-1.0.1-blue)
+![version](https://img.shields.io/badge/version-1.0.2-blue)
 Microservicio Spring Boot que construye el **read model** de partidos para la futura web.
 
 ```text
