@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1 - 2026-09-25
+
+- [patch] Añade eliminación automática de la rama origen después de mergear una Pull Request en `main`.
+
 ## 1.0.0 - 2026-09-24
 - Crea el projector PostgreSQL -> MongoDB.
 - Agrega por `match_id` datos de `fixtures`, `results`, `match_summary`, `stats_player`, `team_stats` y `point_by_point_event`.
