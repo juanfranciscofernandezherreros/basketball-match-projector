@@ -1,6 +1,6 @@
 # basketball-match-projector
 
-Current version: **1.0.0**
+Current version: **1.0.1**
 
 Microservicio Spring Boot que construye el **read model** de partidos para la futura web.
 
